@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MyDashBoardTwo">
+        <attr name="num" format="float" />
+        <attr name="outColor" format="color"/>
+        <attr name="title" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="MyDashBoard">
+        <attr name="num1" format="float" />
+        <attr name="outColor1" format="color"/>
+        <attr name="bgColor1" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="MyDashBoardThree">
+        <attr name="num2" format="float" />
+        <attr name="title2" format="string"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.yang.dialview.MyDashBoardTwo
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:title="外卖评价"
+                app:num="44"/>
+            <com.yang.dialview.MyDashBoard
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:num1="44"/>
+            <com.yang.dialview.MyDashBoardThree
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:num2="68"
+                app:title2="考试评分"/>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
